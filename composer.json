@@ -1,5 +1,5 @@
 {
-    "name": "newpay/flarum-pay-cccyun",
+    "name": "neworder/flarum-pay-cccyun",
     "description": "Connect pay.cccyun.cc's payment system(易支付) with flarum's money",
     "keywords": [
         "flarum"
@@ -13,13 +13,13 @@
     "authors": [
         {
             "name": "aixueyuan",
-            "email": "A@newpay.cc",
+            "email": "A@neworder.cc",
             "role": "Developer"
         }
     ],
     "autoload": {
         "psr-4": {
-            "Newpay\\PayCccyun\\": "src/"
+            "Neworder\\PayCccyun\\": "src/"
         }
     },
     "extra": {
