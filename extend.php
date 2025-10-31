@@ -1,9 +1,9 @@
 <?php
 
-namespace Newpay\PayCccyun;
+namespace Neworder\PayCccyun;
 
 use Flarum\Extend;
-use Newpay\PayCccyun\Service\SingletonReg;
+use Neworder\PayCccyun\Service\SingletonReg;
 
 return [
     // 仅注册 ServiceProvider
