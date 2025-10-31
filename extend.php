@@ -1,11 +1,10 @@
 <?php
 
-namespace Neworder\PayCccyun;
+namespace Neworder\PayYun;
 
 use Flarum\Extend;
-use Neworder\PayCccyun\Service\SingletonReg;
+use Neworder\PayYun\Service\SingletonReg;
 
 return [
-    // 仅注册 ServiceProvider
     (new Extend\ServiceProvider)->register(SingletonReg::class)
 ];
