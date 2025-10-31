@@ -1,0 +1,56 @@
+{
+    "name": "newpay/flarum-pay-cccyun",
+    "description": "Connect pay.cccyun.cc's payment system(易支付) with flarum's money",
+    "keywords": [
+        "flarum"
+    ],
+    "type": "flarum-extension",
+    "license": "Unlicense",
+    "require": {
+        "flarum/core": "^1.2.0",
+        "antoinefr/flarum-ext-money": "*"
+    },
+    "authors": [
+        {
+            "name": "aixueyuan",
+            "email": "A@newpay.cc",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Newpay\\PayCccyun\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Pay CCCYun 易支付对接",
+            "category": "feature",
+            "icon": {
+                "name": "fas fa-money-bill-wave-alt",
+                "color": "#fff",
+                "backgroundColor": "#f9a825"
+            }
+        },
+        "flarum-cli": {
+            "modules": {
+                "admin": true,
+                "forum": true,
+                "js": true,
+                "jsCommon": true,
+                "css": true,
+                "locale": true,
+                "gitConf": true,
+                "githubActions": true,
+                "prettier": true,
+                "typescript": true,
+                "bundlewatch": false,
+                "backendTesting": true,
+                "editorConfig": true,
+                "styleci": true
+            }
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
