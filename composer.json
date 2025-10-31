@@ -1,6 +1,6 @@
 {
     "name": "neworder/flarum-pay-yun",
-    "description": "Connect pay.yun.cc's payment system(易支付) with flarum's money",
+    "description": "Connect pay.yun.cc's payment system with flarum's money",
     "keywords": [
         "flarum"
     ],
